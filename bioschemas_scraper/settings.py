@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for bioschemas_scrapper project
+# Scrapy settings for bioschemas_scraper project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'bioschemas_scrapper'
+BOT_NAME = 'bioschemas_scraper'
 
-SPIDER_MODULES = ['bioschemas_scrapper.spiders']
-NEWSPIDER_MODULE = 'bioschemas_scrapper.spiders'
+SPIDER_MODULES = ['bioschemas_scraper.spiders']
+NEWSPIDER_MODULE = 'bioschemas_scraper.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'bioschemas_scrapper (+http://www.yourdomain.com)'
+#USER_AGENT = 'bioschemas_scraper (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -47,13 +47,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'bioschemas_scrapper.middlewares.BioschemasSpiderSpiderMiddleware': 543,
+#    'bioschemas_scraper.middlewares.BioschemasSpiderSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'bioschemas_scrapper.middlewares.MyCustomDownloaderMiddleware': 543,
+#    'bioschemas_scraper.middlewares.MyCustomDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -65,7 +65,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'bioschemas_scrapper.pipelines.SomePipeline': 300,
+#    'bioschemas_scraper.pipelines.SomePipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
