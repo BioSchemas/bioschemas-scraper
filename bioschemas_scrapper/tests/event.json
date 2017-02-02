@@ -1,0 +1,24 @@
+{
+      "startDate": "2012-12-13 08:30:00 UTC",
+      "endDate": "2012-12-14 17:00:00 UTC",
+      "name": "Introduction to simulation environment for Earth Sciences  @ BSC",
+      "url": "https://events.prace-ri.eu/event/75/",
+      "sameAs": "https://tess.elixir-europe.org/events/introduction-to-simulation-environment-for-earth-sciences-bsc",
+      "hostInstitution": {
+        "type": "http://schema.org/Organization",
+        "properties": {
+          "name": "Prace"
+        }
+      },
+      "location": {
+        "type": "http://schema.org/Place"
+      },
+      "contact": {
+        "type": "http://schema.org/Organization",
+        "properties": {
+          "name": "Prace"
+        }
+      },
+      "description": "All PATC Courses do not charge fees.\nObjectives:\nThe objective of this course is to cover the main basic topics of HPC environment oriented to Earth Sciences applications. Attendants will learn how to access an HPC facility, install some Earth Sciences models and utilities, run specific test cases, monitoring an execution in batch mode, and visualize the results.\nMore specifically, the course will cover:\n\t\tBasic usage of shell environment, compilers, and parallel programming paradigms (MPI, openMP)\n\t\n\t\tBuild a targeted Earth Science application\n\t\n\t\tExecution and monitorization of submitted experiment\n\t\n\t\tIntroduction to some commonly used tools to visualize and analyse model outputs\nLevel: for trainees with some theoretical and practical knowledgeLearning Outcomes:\nThe students who finish this course will be able to access, build, run, and visualize a collection of Earth Sciences numerical models. Furthermore, the students will gain a general knowledge on Earth Sciences applications within an HPC environment. The course will provide basic HPC skills for future Earth Sciences modelers.\n Prerequisites: \nAt least University degree in progress on Earth Sciences, Computer Sciences or related area\nBasic knowledge of UNIX\nKnowledge of C, FORTRAN, MPI or openMP is recommended\nKnowledge of Earth Sciences data formats is recommended (grib, netcdf, hdf,…)\n\nhttps://events.prace-ri.eu/event/75/",
+      "eventType": ["Workshops and courses", "Receptions and networking"]
+}

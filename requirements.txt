@@ -1,0 +1,4 @@
+extruct
+scrapy
+jsonschema
+elasticsearch
