@@ -14,7 +14,7 @@ class BioschemasSpider(CrawlSpider):
 
     custom_settings = {
         'ITEM_PIPELINES': {
-            'bioschemas_spider.pipelines.ElasticPipeline': 100
+            'bioschemas_scraper.pipelines.ElasticPipeline': 100
         }
     }
 

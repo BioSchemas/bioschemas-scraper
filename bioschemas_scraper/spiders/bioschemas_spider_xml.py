@@ -11,7 +11,7 @@ class BioschemasSpider(SitemapSpider):
 
     custom_settings = {
         'ITEM_PIPELINES': {
-            'bioschemas_scrapper.pipelines.ElasticPipeline': 100
+            'bioschemas_scraper.pipelines.ElasticPipeline': 100
         }
     }
 
