@@ -1,4 +1,4 @@
-# bioschemas-scrapper
+# bioschemas-scraper
 Web scrapper to harverst Data items usign bioschemas specifications markup.
 
 ##Dependencies
