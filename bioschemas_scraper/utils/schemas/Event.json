@@ -12,10 +12,14 @@
       ]
     },
     "startDate": {
-      "type": "string"
+      "oneOf": [
+        {"type": "string"}
+      ]
     },
     "endDate": {
-      "type": "string"
+      "oneOf": [
+        {"type": "string"}
+      ]
     },
     "description": {
       "oneOf": [
@@ -112,8 +116,13 @@
       ]
     },
     "url": {
-      "type": "string",
-      "format": "uri"
+      "oneOf": [
+        {
+          "type": "string",
+          "format": "uri"
+        }
+      ]
+
     },
     "keywords": {
       "oneOf":[
@@ -196,7 +205,11 @@
       ]
     },
     "capacity": {
-      "type": "number"
+      "oneOf": [
+        {
+          "type": "integer"
+        }
+      ]
     },
     "eligibility": {
       "oneOf": [
@@ -223,7 +236,8 @@
       ]
     },
     "alternateName": {
-      "type": "string"
+      "oneOf": [
+        {"type": "string"}]
     },
     "accreditation": {
       "oneOf": [

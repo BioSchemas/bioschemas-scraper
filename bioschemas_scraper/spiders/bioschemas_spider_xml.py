@@ -6,7 +6,7 @@ import datetime
 
 class BioschemasSpider(SitemapSpider):
     target_types = ['http://schema.org/Event']
-    name = 'tess.elixir-europe_xml'
+    name = 'https://tess.elixir-europe.org/events'
     sitemap_urls = ['https://tess.elixir-europe.org/sitemaps/events.xml']
 
     custom_settings = {

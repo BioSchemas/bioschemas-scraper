@@ -28,7 +28,7 @@ class ElasticPipeline(object):
         return cls(
             elastic_host=crawler.settings.get('ELASTIC_HOST'),
             elastic_port=crawler.settings.get('ELASTIC_PORT'),
-            index_name=crawler.spider.name
+            index_name=crawler.spider.name.replace('http://', '').replace('/', '_')
         )
 
     def process_item(self, item, spider):
