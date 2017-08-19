@@ -18,7 +18,7 @@ class BioschemasSpider(SitemapSpider):
     def parse(self, response):
         mde = MicrodataExtractor()
         data = mde.extract(response.body)
-        for item in data['items']:
+        for item in data:
             if item['type'] in self.target_types:
                 record = {'indexed_date': datetime.date.today().isoformat(), 'url': response.url, 'body': item}
                 yield record

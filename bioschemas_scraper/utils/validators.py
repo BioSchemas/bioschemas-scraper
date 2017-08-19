@@ -4,8 +4,7 @@ from jsonschema.exceptions import ValidationError
 from jsonschema._utils import format_as_index
 import json
 import re
-
-SCHEMA_PATH = "/Users/federico/git/bioschemas-spider/bioschemas_spider/utils/schemas/"
+from bioschemas_scraper import settings
 
 
 def get_property(message):
@@ -41,7 +40,7 @@ def is_integer(text):
 
 
 def validate_item(item):
-    file_name = SCHEMA_PATH + item['type'].rsplit('/', 1)[1]
+    file_name = settings.SCHEMA_PATH + item['type'].rsplit('/', 1)[1]
     schema = get_json(file_name + '.json')
     instance = item['properties']
     Draft4ValidatorExtended.check_schema(schema)

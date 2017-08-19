@@ -91,3 +91,5 @@ ROBOTSTXT_OBEY = True
 
 ELASTIC_HOST = 'localhost'
 ELASTIC_PORT = '9200'
+
+SCHEMA_PATH = "bioschemas_scraper/utils/schemas/"
